@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <nav>
+        <h2>AI Virtual Doctor</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ai-consult.html">AI Consultation</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="appointment.html" class="active">Book Appointment</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Schedule an Appointment</h2>
+        <form id="appointment-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <select id="specialization">
+                <option value="general">General Physician</option>
+                <option value="cardio">Cardiologist</option>
+                <option value="derma">Dermatologist</option>
+            </select>
+            <button type="submit">Find a Doctor</button>
+        </form>
+        <div id="appointment-result"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 AI Virtual Doctor. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

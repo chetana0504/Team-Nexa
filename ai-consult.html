@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Consultation - AI Virtual Doctor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="chatbot.js"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h2>AI Virtual Doctor</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ai-consult.html" class="active">AI Consultation</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="appointment.html">Book Appointment</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- AI Consultation Chatbot -->
+    <section class="chatbot-section">
+        <h2>AI Medical Consultation</h2>
+        <p>Ask our AI doctor about your symptoms.</p>
+        
+        <div id="chatbot">
+            <div id="chatbox"></div>
+            <input type="text" id="user-input" placeholder="Type your symptoms..." />
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 AI Virtual Doctor. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
